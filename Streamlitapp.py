@@ -20,7 +20,7 @@ st.markdown(page_element, unsafe_allow_html=True)
 imdb_df = pd.read_csv('imdb_movie_reviews.csv')
 
 # Load the trained model
-model = tf.keras.models.load_model('movie_review_sentiment_analysis.keras')
+model = tf.keras.models.load_model('movie_review_sentiment_analysis2.keras')
 
 # Load the Tokenizer
 tokenizer = Tokenizer(num_words=5000, oov_token='<OOV>')
